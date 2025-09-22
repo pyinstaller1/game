@@ -48,15 +48,13 @@ def github():
 
     time.sleep(10)
 
+    keyboard.press_and_release('win + up')
+    time.sleep(3)
+
 
     win = gw.getWindowsWithTitle('Editing game/vp')[0]
     app = Application().connect(handle=win._hWnd)
     app.window(handle=win._hWnd).set_focus()
-
-    time.sleep(1)
-    keyboard.press_and_release('win + up')
-
-    time.sleep(1)
 
     global left, top, width, height
     left = win.left
