@@ -437,7 +437,7 @@ def a03_jangbi():
         
     mouse.move(left+(width*0.83), top+(height*0.43), absolute=True, duration=0.1)   # 거래소
     mouse.click()
-    time.sleep(2)
+    time.sleep(5)
 
     mouse.move(left+(width*0.27), top+(height*0.173), absolute=True, duration=0.1)   # 판매
     mouse.click()
