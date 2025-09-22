@@ -311,13 +311,21 @@ def a03_jangbi(play = 'dungeon'):
     mouse.click()
     time.sleep(1)
 
+    mouse.move(left+(width*0.5), top+(height*0.95), absolute=True, duration=0.1)   # 화면 클릭
+    mouse.click()
+    time.sleep(1)
+    
     mouse.move(left+(width*0.95), top+(height*0.95), absolute=True, duration=0.1)   # 모두받기
     mouse.click()
-    time.sleep(3)
+    time.sleep(1)
+    mouse.move(left+(width*0.5), top+(height*0.95), absolute=True, duration=0.1)   # 화면 클릭
+    mouse.click()
+    time.sleep(7)
+        
 
     mouse.move(left+(width*0.96), top+(height*0.09), absolute=True, duration=0.1)   # 닫기
     mouse.click()
-    time.sleep(1)
+    time.sleep(2)
 
     mouse.move(left+(width*0.96), top+(height*0.09), absolute=True, duration=0.1)   # 메뉴
     mouse.click()
@@ -337,7 +345,7 @@ def a03_jangbi(play = 'dungeon'):
 
     mouse.move(left+(width*0.55), top+(height*0.88), absolute=True, duration=0.1)   # 화면클릭
     mouse.click()
-    time.sleep(1)
+    time.sleep(3)
 
 
     mouse.move(left+(width*0.23), top+(height*0.15), absolute=True, duration=0.1)   # 계정우편

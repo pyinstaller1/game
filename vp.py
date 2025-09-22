@@ -175,7 +175,7 @@ def a02_bok():
         keyboard.press_and_release('space')
         time.sleep(10)
 
-        mouse.move(left_on+(width_on*0.5), top_on+(height_on*0.5), absolute=True, duration=0.1)   # 화면 클릭
+        mouse.move(left+(width*0.5), top+(height*0.5), absolute=True, duration=0.1)   # 화면 클릭
         mouse.click()
         time.sleep(15)
 
