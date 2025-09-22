@@ -313,16 +313,16 @@ def a02_bok():
 
         mouse.move(left+(width*0.967), top+(height*0.083), absolute=True, duration=0.1)   # 닫기
         mouse.click()
-        time.sleep(2)
+        time.sleep(5)
 
         mouse.move(left+(width*0.07), top+(height*0.17), absolute=True, duration=0.1)   # 지도
         mouse.click()
-        time.sleep(5)
+        time.sleep(7)
 
 
         mouse.move(left+(width*0.07), top+(height*0.17), absolute=True, duration=0.1)   # 복구
         mouse.click()
-        time.sleep(2)
+        time.sleep(3)
 
         mouse.move(left+(width*0.03), top+(height*0.95), absolute=True, duration=0.1)   # 행성지도
         mouse.click()
