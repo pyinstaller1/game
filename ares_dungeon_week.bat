@@ -1,1 +1,0 @@
-python ares.py dungeon_week
