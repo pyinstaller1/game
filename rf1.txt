@@ -1,3 +1,4 @@
+0203 21:41	오류
 0203 21:28	오류
 0203 21:28	오류0203 21:27	오류0203 21:27	오류0203 21:21	오류    function go(id) { document.querySelectorAll('.page').forEach(p => p.classList.remove('active')); document.getElementById(id).classList.add('active'); }
 0202 20:01	오류
