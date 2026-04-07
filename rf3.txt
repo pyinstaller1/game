@@ -1,3 +1,21 @@
+0407 22:01	일반
+Fatal error!
+
+Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffffffffffff
+
+0x00007ff71b6762c2 ProjectRF-Win64-Shipping.exe!UnknownFunction []
+0x00007ff71b6872e7 ProjectRF-Win64-Shipping.exe!UnknownFunction []
+0x00007ff71a3e9b2d ProjectRF-Win64-Shipping.exe!UnknownFunction []
+0x00007ff71a3d129f ProjectRF-Win64-Shipping.exe!UnknownFunction []
+0x00007ff71a2f22ee ProjectRF-Win64-Shipping.exe!UnknownFunction []
+0x00007ff71a3076b3 ProjectRF-Win64-Shipping.exe!UnknownFunction []
+0x00007ff71a2edaf0 ProjectRF-Win64-Shipping.exe!UnknownFunction []
+0x00007ff71a3794d4 ProjectRF-Win64-Shipping.exe!UnknownFunction []
+0x00007ff71a4b0a87 ProjectRF-Win64-Shipping.exe!UnknownFunction []
+0x00007ff71a4ae111 ProjectRF-Win64-Shipping.exe!UnknownFunction []
+0x00007ff9849c7374 KERNEL32.DLL!UnknownFunction []
+
+Crash in runnable thread Background Worker #2
 0407 21:02	일반
 0407 20:02	일반
 0407 18:02	일반
